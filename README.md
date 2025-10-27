@@ -19,7 +19,7 @@ It includes sections for About Me, Projects, and Contact information. The site u
 
 ## Deployment
 You can view the live site here:  
-👉 [**Cesar's Portfolio on GitHub Pages**](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)
+👉 [**Cesar's Portfolio on GitHub Pages**]([https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/](https://github.com/cesarsilveriojr-bit?tab=repositories))
 
 ## Future Improvements
 - Add animations or transitions  

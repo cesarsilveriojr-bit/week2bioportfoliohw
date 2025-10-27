@@ -1,0 +1,94 @@
+* {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url("rgfbanner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.rgf {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#intro {
+    border: none;
+    text-align: left;
+}
+
+nav {
+    color: white;
+}
+
+button {
+    width: 100px;
+    margin: 0 .5%;
+    color: black;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: black;
+    color: red;
+}
+
+section {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}    
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li.card {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 2px;
+}
+
+footer {
+    text-align: center;
+    font-size: 80%;
+    margin: 0;
+}
+
+/* tablet */
+@media screen and (max-width: 991px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* phone */
+@media screen and (max-width: 575px) {
+    html {
+        font-size: 60%;
+    }
+}
